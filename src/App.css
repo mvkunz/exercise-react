@@ -1,21 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  background-color: #f5f5f5d6;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+#root {
+  margin: 0 auto;
+  text-align: center;
 }
 
 @keyframes logo-spin {
@@ -33,10 +28,35 @@
   }
 }
 
-.card {
-  padding: 2em;
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto 100px auto;
 }
 
-.read-the-docs {
-  color: #888;
+li {
+  display: inline-block;
+  margin: 50px;
+}
+
+p{
+  text-align: center;
+  margin: 50px;
+}
+
+#footer {
+  background-color: #707070;
+  color: plum;
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  margin: 0;
 }
