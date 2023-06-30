@@ -1,6 +1,7 @@
 import Title from './Title';
 import ModuleDetails from './ModuleDetails';
 import { age } from '../utils/age';
+import Footer from './Footer';
 
 
 function HelloWorld() {
@@ -11,6 +12,7 @@ function HelloWorld() {
       <Title />
       <ModuleDetails />
       <p>Minha idade atual é: {idade}</p>
+      <Footer />
     </>
   )
 }
