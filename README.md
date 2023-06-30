@@ -7,3 +7,5 @@ O projeto deve exibir o nome do usuário e a idade dele, que será calculada com
 O componente principal deve chamar outros dois componentes: Title e ModuleDetails.
 
 Além do pedido no exercício, acrescentei um footer.
+
+Link: https://exercise-react-nine.vercel.app/
